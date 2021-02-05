@@ -19,9 +19,7 @@ app.use(require('./routes/usuario'));
 mongoose.connect(process.env.URLDB,
                     { useNewUrlParser: true, useUnifiedTopology: true, useCreateIndex: true},
                     (err, res) => {
-//strider
-//5sGE78vZS4LmLNdO    
-//mongodb+srv://strider:<password>@cluster0.1xupi.mongodb.net/test
+
 if (err) throw err;
     console.log('Base de datos online')
 });
